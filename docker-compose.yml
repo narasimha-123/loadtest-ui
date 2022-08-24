@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    container_name: mongo
+    environment:
+      MONGO_INITDB_DATABASE: loadTestDB
+
+  # mongo-express:
+  #   image: mongo-express
+  #   restart: always
+  #   ports:
+  #     - 8081:8081
+  #   environment:
+  #     ME_CONFIG_MONGODB_URL: mongodb://mongo:27017/
+  #   depends_on:
+  #     - mongo
+
+  redis:
+    image: redis:7.0.3-alpine
+    restart: always
+    hostname: redis
+    # container_name: job_queue
+    ports:
+      - 6379:6379
+
+  consumer:
+    build: 
+      dockerfile: Dockerfile
+      context: "./consumer"
+    restart: always
+    depends_on:
+      - redis
+    volumes:
+      - results:/consumer/results/
+
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: "./loadtest-api"
+    restart: always
+    depends_on:
+      - mongo
+      - redis  
+    ports:
+      - 3001:3001  
+    volumes:
+      - results:/loadtest-api/results/
+  
+  react:
+    build:
+      dockerfile: Dockerfile
+      context: "./test-react"
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - results:/test-react/public/results/
+
+volumes:
+  results:

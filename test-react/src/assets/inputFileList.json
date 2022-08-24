@@ -1,0 +1,884 @@
+{
+    "custom_ner": {
+        "isCustom": true,
+        "name": "Custom NER model",
+        "fileList": {
+            "1000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "6Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_6Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_20Doc.txt"
+                },
+                {
+                    "option": "8Doc_metering",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_8Doc_metering.txt"
+                }
+            ],
+            "5000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "6Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_6Doc.txt"
+                },
+                {
+                    "option": "2Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_2Doc.txt"
+                },
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_1Doc.txt"
+                }
+            ],
+            "300_chars": [
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_20Doc.txt"
+                },
+                {
+                    "option": "2Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_2Doc.txt"
+                },
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_1Doc.txt"
+                },
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_10Doc.txt"
+                },
+                {
+                    "option": "5Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_5Doc.txt"
+                },
+                {
+                    "option": "15Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_15Doc.txt"
+                }
+            ],
+            "2000_chars": [
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/2000_chars/input_10Doc.txt"
+                }
+            ],
+            "100_chars": [
+                {
+                    "option": "200Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_200Doc.txt"
+                },
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_100Doc.txt"
+                },
+                {
+                    "option": "50Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_50Doc.txt"
+                },
+                {
+                    "option": "75Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_75Doc.txt"
+                },
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_1Doc.txt"
+                },
+                {
+                    "option": "vi",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_vi.txt"
+                }
+            ],
+            "200_chars": [
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/200_chars/input_100Doc.txt"
+                }
+            ],
+            "600_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/600_chars/input_1Doc.txt"
+                }
+            ],
+            "1200_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1200_chars/input_1Doc.txt"
+                }
+            ],
+            "2400_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/2400_chars/input_1Doc.txt"
+                }
+            ],
+            "4800_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/4800_chars/input_1Doc.txt"
+                }
+            ],
+            "4500_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/4500_chars/input_1Doc.txt"
+                }
+            ],
+            "mixed chars": [
+                {
+                    "option": "24Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_24Doc.txt"
+                },
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_12Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_20Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_8Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_4Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_16Doc.txt"
+                }
+            ]
+        }
+    },
+    "custom_txtc": {
+        "isCustom": true,
+        "name": "Custom Text Classification model",
+        "fileList": {
+            "1000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_20Doc.txt"
+                }
+            ],
+            "5000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/5000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/5000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/5000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/5000_chars/input_8Doc.txt"
+                }
+            ],
+            "300_chars": [
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/300_chars/input_20Doc.txt"
+                }
+            ],
+            "2000_chars": [
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/2000_chars/input_10Doc.txt"
+                }
+            ],
+            "100_chars": [
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/100_chars/input_100Doc.txt"
+                }
+            ],
+            "mixed chars": [
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_8Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_4Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_16Doc.txt"
+                },
+                {
+                    "option": "24Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_24Doc.txt"
+                },
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_12Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_20Doc.txt"
+                }
+            ]
+        }
+    },
+    "pretrained_absa": {
+        "isCustom": false,
+        "name": "Pre-trained Sentiment Analysis",
+        "fileList": {
+            "1000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/1000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/1000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/1000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/1000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "6Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/1000_chars/input_6Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/1000_chars/input_20Doc.txt"
+                }
+            ],
+            "5000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/5000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/5000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/5000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/5000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "6Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/5000_chars/input_6Doc.txt"
+                },
+                {
+                    "option": "2Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/5000_chars/input_2Doc.txt"
+                }
+            ],
+            "300_chars": [
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/300_chars/input_20Doc.txt"
+                }
+            ],
+            "2000_chars": [
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/2000_chars/input_10Doc.txt"
+                }
+            ],
+            "200_chars": [
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/200_chars/input_100Doc.txt"
+                }
+            ],
+            "100_chars": [
+                {
+                    "option": "200Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/100_chars/input_200Doc.txt"
+                },
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/100_chars/input_100Doc.txt"
+                },
+                {
+                    "option": "75Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/100_chars/input_75Doc.txt"
+                },
+                {
+                    "option": "50Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/100_chars/input_50Doc.txt"
+                }
+            ],
+            "mixed chars": [
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/input_8Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/input_4Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/input_16Doc.txt"
+                },
+                {
+                    "option": "24Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/input_24Doc.txt"
+                },
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/input_12Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_absa/input20Doc.txt"
+                }
+            ]
+        }
+    },
+    "pretrained_bner": {
+        "isCustom": false,
+        "name": "Pre-trained Name Entity Recognition",
+        "fileList": {
+            "1000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "6Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_6Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_20Doc.txt"
+                },
+                {
+                    "option": "8Doc_metering",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1000_chars/input_8Doc_metering.txt"
+                }
+            ],
+            "5000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "6Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_6Doc.txt"
+                },
+                {
+                    "option": "2Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_2Doc.txt"
+                },
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/5000_chars/input_1Doc.txt"
+                }
+            ],
+            "300_chars": [
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_20Doc.txt"
+                },
+                {
+                    "option": "2Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_2Doc.txt"
+                },
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_1Doc.txt"
+                },
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_10Doc.txt"
+                },
+                {
+                    "option": "5Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_5Doc.txt"
+                },
+                {
+                    "option": "15Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/300_chars/input_15Doc.txt"
+                }
+            ],
+            "2000_chars": [
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/2000_chars/input_10Doc.txt"
+                }
+            ],
+            "100_chars": [
+                {
+                    "option": "200Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_200Doc.txt"
+                },
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_100Doc.txt"
+                },
+                {
+                    "option": "50Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_50Doc.txt"
+                },
+                {
+                    "option": "75Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_75Doc.txt"
+                },
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_1Doc.txt"
+                },
+                {
+                    "option": "vi",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/100_chars/input_vi.txt"
+                }
+            ],
+            "200_chars": [
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/200_chars/input_100Doc.txt"
+                }
+            ],
+            "600_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/600_chars/input_1Doc.txt"
+                }
+            ],
+            "1200_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/1200_chars/input_1Doc.txt"
+                }
+            ],
+            "2400_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/2400_chars/input_1Doc.txt"
+                }
+            ],
+            "4800_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/4800_chars/input_1Doc.txt"
+                }
+            ],
+            "4500_chars": [
+                {
+                    "option": "1Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/4500_chars/input_1Doc.txt"
+                }
+            ],
+            "mixed chars": [
+                {
+                    "option": "24Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_24Doc.txt"
+                },
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_12Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_20Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_8Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_4Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_bner/input_16Doc.txt"
+                }
+            ]
+        }
+    },
+    "pretrained_kpe": {
+        "isCustom": false,
+        "name": "Pre-trained Key Phrase Extraction",
+        "fileList": {
+            "1000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/1000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/1000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/1000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/1000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/1000_chars/input_20Doc.txt"
+                }
+            ],
+            "5000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/5000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/5000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/5000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/5000_chars/input_8Doc.txt"
+                }
+            ],
+            "300_chars": [
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/300_chars/input_20Doc.txt"
+                }
+            ],
+            "2000_chars": [
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/2000_chars/input_10Doc.txt"
+                }
+            ],
+            "100_chars": [
+                {
+                    "option": "200Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/100_chars/input_200Doc.txt"
+                },
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/100_chars/input_100Doc.txt"
+                },
+                {
+                    "option": "50Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/100_chars/input_50Doc.txt"
+                },
+                {
+                    "option": "75Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/100_chars/input_75Doc.txt"
+                }
+            ],
+            "200_chars": [
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/200_chars/input_100Doc.txt"
+                }
+            ],
+            "mixed chars": [
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/input_8Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/input_4Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/input_16Doc.txt"
+                },
+                {
+                    "option": "24Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/input_24Doc.txt"
+                },
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/input_12Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_kpe/input_20Doc.txt"
+                }
+            ]
+        }
+    },
+    "pretrained_ld": {
+        "isCustom": false,
+        "name": "Pre-trained Language Detection",
+        "fileList": {
+            "1000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/1000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/1000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/1000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/1000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/1000_chars/input_20Doc.txt"
+                }
+            ],
+            "5000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/5000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/5000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/5000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/5000_chars/input_8Doc.txt"
+                }
+            ],
+            "300_chars": [
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/300_chars/input_20Doc.txt"
+                }
+            ],
+            "2000_chars": [
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/2000_chars/input_10Doc.txt"
+                }
+            ],
+            "100_chars": [
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/100_chars/input_100Doc.txt"
+                }
+            ],
+            "mixed chars": [
+                {
+                    "option": "24Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/input_24Doc.txt"
+                },
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/input_12Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/input_20Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/input_8Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/input_4Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_ld/input_16Doc.txt"
+                }
+            ]
+        }
+    },
+    "pretrained_translation": {
+        "isCustom": false,
+        "name": "Pre-trained Language Translation",
+        "fileList": {
+            "mixed chars": [
+                {
+                    "option": "trans",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_translation/input_trans.txt"
+                }
+            ]
+        }
+    },
+    "pretrained_txtc": {
+        "isCustom": false,
+        "name": "Pre-trained Text Classification",
+        "fileList": {
+            "1000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_8Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/1000_chars/input_20Doc.txt"
+                }
+            ],
+            "5000_chars": [
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/5000_chars/input_12Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/5000_chars/input_16Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/5000_chars/input_4Doc.txt"
+                },
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/5000_chars/input_8Doc.txt"
+                }
+            ],
+            "300_chars": [
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/300_chars/input_20Doc.txt"
+                }
+            ],
+            "2000_chars": [
+                {
+                    "option": "10Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/2000_chars/input_10Doc.txt"
+                }
+            ],
+            "100_chars": [
+                {
+                    "option": "100Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/100_chars/input_100Doc.txt"
+                }
+            ],
+            "mixed chars": [
+                {
+                    "option": "8Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_8Doc.txt"
+                },
+                {
+                    "option": "4Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_4Doc.txt"
+                },
+                {
+                    "option": "16Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_16Doc.txt"
+                },
+                {
+                    "option": "24Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_24Doc.txt"
+                },
+                {
+                    "option": "12Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_12Doc.txt"
+                },
+                {
+                    "option": "20Doc",
+                    "value": "/home/opc/loadTestUI/inputs/inputs_txtc/input_20Doc.txt"
+                }
+            ]
+        }
+    }
+}

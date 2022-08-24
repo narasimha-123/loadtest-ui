@@ -1,0 +1,213 @@
+/*************** 
+HEADER
+****************/
+.header-text {
+    /* color: white; */
+}
+
+/*************** 
+CENTRAL CONTAINER
+****************/
+.bg-darker-than-light {
+    background-color: #999 !important;
+}
+
+/*************** 
+SIDEBAR
+****************/
+
+.sidebar {
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar .nav-item {
+    position: relative;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #999;
+    stroke: #999;
+}
+
+.sidebar .nav-item:hover {
+    color: rgb(23, 110, 214);
+    border-bottom: 1px solid transparent;
+    box-shadow: -9px 0px 15px #0d6efd;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar .nav-link:hover {
+    color: rgb(23, 110, 214);
+    stroke: rgb(23, 110, 214);
+}
+
+.sidebar .nav-item.active .nav-link{
+    color: rgb(6, 92, 197);
+    stroke: rgb(6, 92, 197);
+}
+.sidebar .nav-item.active::before {
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    height: 100%;
+    content: "";
+    display: block;
+    width: 5px;
+    border-radius: 0px 5px 5px 0px;
+    background: #0d6efd none repeat scroll 0% 0%;
+    transition: all 0.5s ease 0s;;
+}
+
+/* .sidebar-heading {
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1);
+} */
+
+div.icon-doc svg path {
+    stroke-width: 3;
+}
+
+div.icon svg{
+    display: block;
+    margin: auto;
+}
+
+/*************** 
+HISTORY
+****************/
+
+.search-box {
+    position: relative;
+    float: right;
+}
+
+.search-box input {
+    height: 34px;
+    border-radius: 20px;
+    padding-left: 35px;
+    border-color: #ddd;
+    box-shadow: none;
+}
+
+.search-box input:focus {
+    border-color: #3FBAE4;
+}
+
+.search-box i {
+    color: #a0a5b1;
+    position: absolute;
+    font-size: 19px;
+    top: 8px;
+    left: 10px;
+}
+
+/*************** 
+FORM
+****************/
+#interchangeRow{
+    height: 10%;
+}
+
+#interchangeBtn{
+    /* position: absolute; */
+    /* left: 50rem; */
+    /* top: -0.25rem; */
+    /* bottom: 11.3rem; */
+}
+/*************** 
+Table
+****************/
+.colored-circle {
+    display: inline-block;
+    border-radius: 50%;
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-bottom: 0.15rem
+}
+
+.table-border-shadow {
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    box-shadow: rgba(0, 64, 140, 0.15) 0px 0px 8px;
+}
+
+/*************** 
+ALERT
+****************/
+
+/* The alert message box */
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  .error {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+  }
+  
+  .success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+  }
+  
+  .warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+  }
+  .primary {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+  }
+  
+  .secondary {
+    color: #41464b;
+    background-color: #e2e3e5;
+    border-color: #d3d6d8;
+  }
+  
+  .info {
+    color: #055160;
+    background-color: #cff4fc;
+    border-color: #b6effb;
+  }
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  .hide {
+    display: none;
+  }
+
+  .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0,0,0,0.3);
+  }

@@ -1,0 +1,19 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.8.4",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.2",
+    "node-scp": "^0.0.17",
+    "simple-ssh": "^1.1.0",
+    "winston": "^3.8.1"
+  }
+}

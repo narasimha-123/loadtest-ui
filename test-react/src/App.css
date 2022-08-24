@@ -1,0 +1,9 @@
+html, body, #root{
+    background: var(--color-bg);
+    height:100%
+}
+
+a {
+    color:unset;
+    text-decoration:none; 
+}

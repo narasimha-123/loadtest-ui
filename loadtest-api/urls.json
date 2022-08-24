@@ -1,0 +1,12 @@
+{
+    "custom_ner": {
+        "url":"/20210101/actions/batchDetectLanguageEntities",
+        "preprod":"ocid1.aimodeldeployment.oc1.iad.amaaaaaac4idruiajeml5if5phnfuzpvwmjgtgctqqcwynugs2bhsfofm5ra",
+        "int":"ocid1.aimodeldeployment.oc1.iad.amaaaaaakb73itiap4aro3f256c3xergff2hlxr5ehsuq4spxdxljsdy4vma"
+    },
+    "custom_txtc": {
+        "url":"/20210101/actions/batchDetectLanguageTextClassification",
+        "preprod":"",
+        "int":""
+    }
+}
